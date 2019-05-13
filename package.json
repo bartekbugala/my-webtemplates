@@ -12,8 +12,6 @@
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "init:normalize": "curl https://necolas.github.io/normalize.css/latest/normalize.css -o vendor/normalize.css",
     "init:index": "curl https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/index.html -o index.html",
-
-    
     "build": "npm-run-all build:*",
     "build:clean": "rimraf css",
     "build:sass": "node-sass --output-style compact -o css sass",
