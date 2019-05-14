@@ -25,7 +25,6 @@
     "watch:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch:autoprefixer": "autoprefixer-cli css/style.css ",
     "watch:validate": "onchange *.html -- npm-run-all test:all",
-    "watch:git": "git status",
     "watch:browsersync": "browser-sync start --server --files js css/*.css *.html"
   },
   "keywords": [],
