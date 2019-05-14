@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "cook": "npm-run-all boil:*",
+    "cook": "npm-run-all cook:*",
     "cook:index": "curl https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/index.html -o index.html",
     "cook:scss": "curl https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/style.scss -o sass/style.scss",
     "cook:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
@@ -26,7 +26,7 @@
     "watch:autoprefixer": "autoprefixer-cli css/style.css ",
     "watch:validate": "onchange *.html -- npm-run-all test:all",
     "watch:git": "git status",
-    "watch:browsersync": "browser-sync start --server --files css/*.css *.html"
+    "watch:browsersync": "browser-sync start --server --files js css/*.css *.html"
   },
   "keywords": [],
   "author": "Bartek Bugała",
