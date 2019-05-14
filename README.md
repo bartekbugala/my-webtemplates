@@ -12,6 +12,6 @@ Boilerplate package.json with some npm auto tasks
 Inside Commented cheatsheet.
 
 ### [.bashrc](https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/.bashrc)
-Auto-launching ssh-agent on Git for Windows
+Auto-launching ssh-agent on Git for Windows (bash)
 On Windows: this file must be copied into: users/<username>
   More on: [link](https://help.github.com/en/articles/working-with-ssh-key-passphrases#platform-windows)
