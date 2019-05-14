@@ -7,7 +7,7 @@ Simple html5 boilerplate (with: js/script.js css/style.css vendor/normalize.css)
 ### [package.json - project-init](https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/package.json)
 Don't run here if you fork THIS repo!
 Boilerplate package.json with some npm auto tasks\
-Contains allhtml-validator-cli:[repository](https://github.com/bartekbugala/allhtml-validator-cli)
+Contains allhtml-validator-cli [repository](https://github.com/bartekbugala/allhtml-validator-cli)
 
 ### [style.scss](https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/style.scss)
 Inside Commented cheatsheet.
