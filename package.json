@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "cook": "npm-run-all boil:*"
+    "cook": "npm-run-all boil:*",
     "cook:index": "curl https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/index.html -o index.html",
     "cook:scss": "curl https://raw.githubusercontent.com/bartekbugala/my-webtemplates/master/style.scss -o sass/style.scss",
     "cook:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
