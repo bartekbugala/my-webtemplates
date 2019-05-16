@@ -10,7 +10,7 @@
     "cook:mustache": "curl https://raw.githubusercontent.com/janl/mustache.js/master/mustache.js -o vendor/mustache.js",
     "cook:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "cook:normalize": "curl https://necolas.github.io/normalize.css/latest/normalize.css -o vendor/normalize.css",
-    "cook:git": "git init && git add . && git commit -m \"Initial commit\"",
+    "cook:git": "git init && git add . && git commit -m \"Initial commit\" && git status",
     "test": "npm-run-all test:*",
     "test:all": "html-validator --allfiles --verbose",
     "init-project": "npm install && npm-run-all init:*",
