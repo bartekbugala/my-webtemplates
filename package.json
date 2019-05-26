@@ -15,7 +15,7 @@
     "test:all": "html-validator --allfiles --verbose",
     "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdirp sass css vendor images js",
-    "init:files": "touch README.md index.html js/script.js css/style.css sass/style.scss && cook:gitignore && cook:normalize", 
+    "init:files": "touch README.md index.html js/script.js css/style.css sass/style.scss", 
     "build": "npm-run-all build:*",
     "build:clean": "rimraf css",
     "build:sass": "node-sass --output-style compact -o css sass",
