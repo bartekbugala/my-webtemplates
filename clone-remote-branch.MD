@@ -1,3 +1,5 @@
+# Jak sklonować branch ze zdalnego repozytorium
+
 Załóżmy, że chcemy sprawdzić jakie branche (także zdalne) są w repozytorium:
 Uruchamiamy $ git branch z flagą `-a`:
 
